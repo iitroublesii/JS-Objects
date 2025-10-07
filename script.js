@@ -5,4 +5,6 @@ const book = {
     read: function() {
         console.log('Currently reading "${this.title}" by ${this.author}.');
     }
-}
+};
+
+book.read();
