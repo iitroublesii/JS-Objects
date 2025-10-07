@@ -34,7 +34,7 @@ function Student(name, grade, subject) {
     };
 
 
-    this.finishedSchoolYear = function () {
+    this.finishesSchoolYear = function () {
         if (this.grade < 12) {
             this.grade++;
             console.log('${this.name} is now in grade ${this.grade}.');
@@ -54,5 +54,5 @@ student3.introduce();
 
 student1.finishesSchoolYear();
 student2.finishesSchoolYear();
-student3.finishesSchollYear();
+student3.finishesSchoolYear();
 
